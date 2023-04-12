@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+  * main - Multiplies two numbers
+  * @argc: args counter
+  * @argv: args array
+  * Return: 0 success, 1 error
+  */
+
+int main(int argc, char *argv[])
+{
+	int i;
+	int mul;
+
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		for (i = 1; i < argc; i++)
+		{
+			mult = mult * atoi(argv[i]);
+		}
+		printf("%d\n", mult);
+		return (0);
+	}
+}
