@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			mult = mult * atoi(argv[i]);
+			mul = mul * atoi(argv[i]);
 		}
-		printf("%d\n", mult);
+		printf("%d\n", mul);
 		return (0);
 	}
 }
