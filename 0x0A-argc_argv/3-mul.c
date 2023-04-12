@@ -11,14 +11,9 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int mul;
+	int mul = 1;
 
-	if (argc != 3)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	else
+	if (argc == 3)
 	{
 		for (i = 1; i < argc; i++)
 		{
@@ -27,4 +22,9 @@ int main(int argc, char *argv[])
 		printf("%d\n", mul);
 		return (0);
 	}
+	else
+        {
+                printf("Error\n");
+                return (1);
+        }
 }
