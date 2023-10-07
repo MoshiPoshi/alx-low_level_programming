@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - 	Print the last digit of randomly generated
+ * main -	Print the last digit of randomly generated
  *		num and define whether it is greater
  *		than 5, less 6, or a 0.
  *
